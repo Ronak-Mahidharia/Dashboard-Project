@@ -6,15 +6,6 @@ import PageTitle from '@/components/ui/PageTitle';
 
 type Props = {}
 
-export default function UsersPage({}: Props) {
-  return (
-    <div className = "flex flex-col gap-5 w-full">
-      <PageTitle title="Users" />
-      <DataTable columns={columns} data={data} />
-    </div>
-  )
-}
-
 type Payment = {
   name: string;
   email: string;
@@ -22,7 +13,7 @@ type Payment = {
   method: string;
 }
  
-export const columns: ColumnDef<Payment>[] = [
+const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "name",
     header: "Name",
@@ -55,7 +46,7 @@ export const columns: ColumnDef<Payment>[] = [
   },
 ]
 
-export const data: Payment[] = [
+const data: Payment[] = [
   {
     name: "Ronak Mahidharia",
     email: "mahidharia.r@example.com",
@@ -147,3 +138,14 @@ export const data: Payment[] = [
     method: "Zelle"
   },
 ]
+
+
+export default function UsersPage({}: Props) {
+  return (
+    <div className = "flex flex-col gap-5 w-full">
+      <PageTitle title="Users" />
+      <DataTable columns={columns} data={data} />
+    </div>
+  )
+}
+

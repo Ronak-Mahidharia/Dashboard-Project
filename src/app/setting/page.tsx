@@ -7,15 +7,6 @@ import { cn } from '@/lib/utils';
 
 type Props = {}
 
-export default function SettingsPage({ }: Props) {
-  return (
-    <div className="flex flex-col gap-5 w-full">
-      <PageTitle title="Settings" />
-      <DataTable columns={columns} data={data} />
-    </div>
-  )
-}
-
 interface Setting {
   category: string;
   value: string | number | boolean;
@@ -51,4 +42,15 @@ const data: Setting[] = [
     value: "Dark"
   }
 ];
+
+
+
+export default function SettingsPage({ }: Props) {
+  return (
+    <div className="flex flex-col gap-5 w-full">
+      <PageTitle title="Settings" />
+      <DataTable columns={columns} data={data} />
+    </div>
+  )
+}
 
