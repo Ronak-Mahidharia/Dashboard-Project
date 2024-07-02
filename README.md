@@ -23,7 +23,7 @@ Make sure you have Node.js and npm installed on your machine.
 ### Installation
 
 1. Clone the repo:
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/Ronak-Mahidharia/Dashboard-Project.git)
 
 2. Change to the project directory:
    cd your-repo-name
