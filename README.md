@@ -6,11 +6,8 @@
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -39,15 +36,3 @@ To start the development server, run:
 npm run start
 
 Open http://localhost:3000 with your browser to see the result.
-
-###Technologies Used
-TypeScript: A superset of JavaScript that adds static typing.
-JavaScript: A high-level, interpreted programming language.
-Next.js: A React framework for server-side rendering and static site generation.
-React: A JavaScript library for building user interfaces.
-Tailwind CSS: A utility-first CSS framework.
-PostCSS: A tool for transforming CSS with JavaScript plugins.
-ESLint: A static code analysis tool for identifying and fixing problems in JavaScript and TypeScript code.
-Radix UI: Accessible, unstyled UI components for building design systems.
-Recharts: A charting library built on React components.
-ShadcnUI: A design system built on top of Radix UI and Tailwind CSS for creating reusable and customizable UI components.
